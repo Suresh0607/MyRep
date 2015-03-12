@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="aadhya" name="test.YahooRegistration" tests="3" failures="0" timestamp="12 Mar 2015 00:21:25 GMT" time="0.004" errors="0">
+  <testcase name="Register" time="0.0" classname="test.YahooRegistration"/>
+  <testcase name="Register" time="0.001" classname="test.YahooRegistration"/>
+  <testcase name="Register" time="0.0" classname="test.YahooRegistration"/>
+</testsuite>

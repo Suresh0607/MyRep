@@ -1,0 +1,116 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo Suite" duration-ms="201" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+    <groups>
+    </groups>
+    <test name="Yahoo News Test" duration-ms="3" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+      <class name="test.Yahoo1">
+        <test-method status="PASS" signature="beforeTest()" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testReceiveMail()" name="testReceiveMail" duration-ms="0" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+        <test-method status="PASS" signature="AfterMethod()" name="AfterMethod" is-config="true" duration-ms="0" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testSendMail()" name="testSendMail" duration-ms="1" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+        <test-method status="PASS" signature="AfterTest()" name="AfterTest" is-config="true" duration-ms="0" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+        <test-method status="PASS" signature="AfterMethod()" name="AfterMethod" is-config="true" duration-ms="0" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Yahoo  Registration" duration-ms="4" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+      <class name="test.YahooRegistration">
+        <test-method status="PASS" signature="Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="Register" duration-ms="1" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[City2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="Register" duration-ms="0" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[City1]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Register(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="Register" duration-ms="0" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[City3]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="test.Yahoo1">
+        <test-method status="PASS" signature="initializeSelenium()" name="initializeSelenium" is-config="true" duration-ms="28" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+        <test-method status="PASS" signature="ShutDownSelenium()" name="ShutDownSelenium" is-config="true" duration-ms="1" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Yahoo Mail Test" duration-ms="16" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+      <class name="test.Yahoo">
+        <test-method status="PASS" signature="YahooNewsTest()" name="YahooNewsTest" duration-ms="4" started-at="2015-03-12T05:51:25Z" finished-at="2015-03-12T05:51:25Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
